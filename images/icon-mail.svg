@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <g id="Grupo_1576" data-name="Grupo 1576" transform="translate(-1056.594 -1547)">
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="72" height="72" rx="36" transform="translate(1056.594 1547)" fill="#e67300"/>
+    <g id="mail" transform="translate(1082.594 1573.999)">
+      <path id="Trazado_157" data-name="Trazado 157" d="M4,4H20a2.142,2.142,0,0,1,2,2.25v13.5A2.142,2.142,0,0,1,20,22H4a2.142,2.142,0,0,1-2-2.25V6.25A2.142,2.142,0,0,1,4,4Z" transform="translate(-2 -4)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Trazado_158" data-name="Trazado 158" d="M22,6,12,13,2,6" transform="translate(-2 -4)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
