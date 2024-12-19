@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSK</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet-gsk.css">
     <link rel="stylesheet" href="styles-gsk.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -14,7 +15,7 @@
     <!-- Header -->
     <header class="container-fluid">
         <div class="container">
-            <div class="top py-32 px-48">
+            <div class="top py-3 px-4">
                 <img src="images/logo-gsk.png" alt="logo gsk" class="img-fluid logo-header">
             </div>
         </div>
@@ -31,19 +32,19 @@
     </section>
     <!-- Main Content -->
 
-    <div class="container m-20">
-        <div class="mt-48 flex justify-end centrado-mobile">
+    <div class="container ">
+        <div class="mt-3 mt-md-5 flex justify-end centrado-mobile">
             <a href="#" class="btn-orange small-txt w-100-mb">Manejo de esquema de dosificación</a>
         </div>
     </div>
 
     <!-- Planificador de visitas de inyección -->
-    <div class="container m-20">
+    <div class="container ">
 
-        <h2 class="text-1 txt-planificador">Planificador de visitas de inyección</h2>
+        <h2 class="text-1 mt-4 mt-md-0">Planificador de visitas de inyección</h2>
 
         <div class="contenedor-tratamiento">
-            <div class="progreso-tratamiento mt-48">
+            <div class="progreso-tratamiento mt-md-5 mt-4">
                 <div class="paso activo small-txt">
                     <span class="circulo-numero">1</span> Estado del tratamiento
                 </div>
@@ -55,10 +56,11 @@
                 </div>
             </div>
 
-            <div class="flex flex-column gap-20 text-center mt-64 mb-48">
+            <div class="flex flex-column gap-20 text-center mt-5 mb-5">
 
                 <div style="max-width: 900px;margin:auto;" class="flex flex-column gap-20 ">
-                    <h2 class="text-1 fs-28 light mt-48">¿Ha comenzado el tratamiento de VOCABRIA + REKAMBYS?</h2>
+                    <h2 class="text-1 fs-28 light mt-0 mt-md-5">¿Ha comenzado el tratamiento de VOCABRIA + REKAMBYS?
+                    </h2>
                     <p class="text-1 small-txt" style="line-height: 1.4;color: #6D6D6D;max-width: 800px;margin: auto;">
                         Programar las visitas de inyección de VOCABRIA + REKAMBYS será algo nuevo para ti y tus
                         pacientes.
@@ -70,9 +72,11 @@
                 </div>
 
             </div>
-            <div class="flex justify-center gap-20 mt-64 flex-col-mb">
-                <button class="btn-orange2 boton-primario small-txt bold">Su paciente comenzará el tratamiento con
-                    VOCABRIA + REKAMBYS</button>
+            <div class="flex justify-center gap-20 mt-md-5 mt-0 flex-col-mb">
+                <a href="no-comenzo-el-tratamiento.html"
+                    class="btn-orange2 boton-primario small-txt bold text-center decoration-none">Su paciente comenzará
+                    el tratamiento con
+                    VOCABRIA + REKAMBYS</a>
                 <button class="btn-orange2 boton-primario small-txt bold">Su paciente ya comenzó el tratamiento con
                     VOCABRIA + REKAMBYS</button>
             </div>
@@ -81,57 +85,60 @@
     </div>
     <!-- FIN Planificador de visitas de inyección -->
 
-    <div class="container m-20">
-        <div class="border-grey p-20 br-20 mt-64">
-            <img src="/images/icon-orange-alert.svg" alt="icon" class="mb-16 mt-16">
-            <h2 class="text-1 light mb-16">Interrupción del tratamiento con VOCABRIA + REKAMBYS</h2>
+    <div class="container ">
+        <div class="p-4 p-md-4 mt-md-5 p-lg-6 border-grey br-20 mt-4">
+            <img src="/images/icon-orange-alert.svg" alt="icon" class="mb-3 mb-3">
+            <h2 class="text-1 light mb-3">Interrupción del tratamiento con VOCABRIA + REKAMBYS</h2>
             <p class="txt-grey small-txt">En caso de discontinuación, se debe comenzar una terapia ARV alternativa a más
                 tardar 2 meses luego de la última inyección (o 1 mes luego de las inyecciones de inicio) para reducir el
                 riesgo de desarrollar resistencia viral.<sup>1,2</sup></p>
         </div>
     </div>
 
-    <div class="bg-lightgrey mt-48 pb-64">
-        <div class="container m-20">
-            <p class="txt-grey small-txt pt-48">ARV = antirretroviral</p>
+    <div class="bg-lightgrey mt-5 pb-5">
+        <div class="container ">
+            <p class="txt-grey small-txt pt-5">ARV = antirretroviral</p>
 
-            <div class="border-grey bg-white br-20 mt-32 p-30">
+            <div class="border-grey bg-white br-20 mt-5 
+            p-md-4 p-4">
                 <p class="text-1 small-txt">Referencias:</p>
-                <p class="small-txt mt-16" style="margin-bottom: 5px;"><span class="text-primario">1.</span> VOCABRIA
+                <p class="small-txt mb-3 txt-grey" style="margin-bottom: 5px;"><span class="text-primario">1.</span>
+                    VOCABRIA
                     Información para prescribir aprobada por ANMAT.</p>
-                <p class="small-txt "><span class="text-primario">2.</span> REKAMBYS Información para prescribir
+                <p class="small-txt txt-grey"><span class="text-primario">2.</span> REKAMBYS Información para prescribir
                     aprobada por ANMAT. (Janssen Cilag Farmacéutica S.A.)</p>
             </div>
 
-            <p class="small-txt mt-32 mb-32 txt-grey">Vocabria inyectable está indicado, en combinación con rilpivirina
+            <p class="small-txt txt-grey pt-3 pb-3 pb-md-4">Vocabria inyectable está indicado, en combinación con
+                rilpivirina
                 inyectable, para el tratamiento de la infección por el virus de la inmunodeficiencia humana tipo 1
                 (VIH-1) en adultos que están virológicamente suprimidos (ARN del VIH-1 &lt;50 copias/ml) en un
                 tratamiento antirretroviral estable, sin evidencia actual o previa de resistencia a, y sin fracaso
                 virológico previo con, inhibidores de la transcriptasa inversa no nucleósidos (NNRTI) e inhibidores de
                 la integrasa (INSTI).<sup>1</sup></p>
 
-            <button class="accordion bg-white br-20">
-                <p class="text-primario bold uppercase">INFORMACIÓN DE SEGURIDAD Vocabria<sup>1</sup></p><span
+            <button class="accordion bg-white br-30 pt-3 pb-0">
+                <p class="text-primario bold uppercase txt-mobile">INFORMACIÓN DE SEGURIDAD Vocabria<sup>1</sup></p><span
                     class="arrow-accordion rotate-arrow-down" style="color: #E67300;">-</span>
             </button>
             <div class="panel display-none accordion-disappear">
                 <div class="flex flex-column w-100">
-                    <p class="txt-grey pt-16 pb-16 small-txt px-16">Cabotegravir, suspensión inyectable<sup>1</sup></p>
+                    <p class="txt-grey px-3 py-2 small-txt mb-0">Cabotegravir, suspensión inyectable<sup>1</sup></p>
 
-                    <div class="bg-white br-20 border-grey mt-16">
-                        <p class="text-primario bold uppercase small-txt" style="padding: 15px 30px;">Contraindicaciones
+                    <div class="bg-white br-30 border-grey mt-3">
+                        <p class="text-primario bold uppercase small-txt p-3 pb-0 px-4">Contraindicaciones
                         </p>
                     </div>
 
-                    <p class="txt-grey pt-16 small-txt px-16">Hipersensibilidad al principio activo o a alguno de los
+                    <p class="txt-grey px-3 py-2 small-txt mb-0">Hipersensibilidad al principio activo o a alguno de los
                         excipientes.</p>
-                    <p class="txt-grey pt-16 small-txt px-16">La coadministración con rifampicina, rifapentina,
+                    <p class="txt-grey px-3 py-2 small-txt mb-0">La coadministración con rifampicina, rifapentina,
                         carbamazepina, oxocarbazepina, fenitoína o fenobarbital.</p>
 
 
 
-                    <div class="bg-white br-20 border-grey mt-16">
-                        <p class="text-primario bold small-txt" style="padding: 15px 30px;">Advertencias y precauciones
+                    <div class="bg-white br-30 border-grey mt-3">
+                        <p class="text-primario bold small-txt p-3 pb-0 px-4">Advertencias y precauciones
                         </p>
                     </div>
 
@@ -177,8 +184,8 @@
 
 
 
-                    <div class="bg-white br-20 border-grey mt-16">
-                        <p class="text-primario bold small-txt" style="padding: 15px 30px;">Reacciones adversas
+                    <div class="bg-white br-30 border-grey mt-3">
+                        <p class="text-primario bold small-txt p-3 pb-0 px-4">Reacciones adversas
                         </p>
                     </div>
 
@@ -214,19 +221,19 @@
             </div>
 
 
-            <button class="accordion bg-white br-20 mt-16">
-                <p class="text-primario bold uppercase">Información de seguridad Rekambys<sup>2</sup></p><span
+            <button class="accordion bg-white br-30 pt-3 pb-0 mt-2">
+                <p class="text-primario bold uppercase txt-mobile">Información de seguridad Rekambys<sup>2</sup></p><span
                     class="arrow-accordion rotate-arrow-down" style="color: #E67300;">-</span>
             </button>
             <div class="panel display-none accordion-disappear">
                 <div class="flex flex-column w-100">
 
-                    <div class="bg-white br-20 border-grey mt-16">
-                        <p class="text-primario bold uppercase small-txt" style="padding: 15px 30px;">Contraindicaciones
+                    <div class="bg-white br-30 border-grey mt-3">
+                        <p class="text-primario bold uppercase small-txt p-3 pb-0 px-4">Contraindicaciones
                         </p>
                     </div>
 
-                    <p class="txt-grey pt-16 small-txt px-16">Hipersensibilidad al principio activo o a alguno de los
+                    <p class="txt-grey px-3 py-2 small-txt mb-0">Hipersensibilidad al principio activo o a alguno de los
                         excipientes. REKAMBYS no debe coadministrarse con los siguientes medicamentos, ya que pueden
                         ocurrir disminuciones significativas en las concentraciones plasmáticas de rilpivirina (debido a
                         la inducción enzimática de CYP3A), la cual puede resultar en la pérdida del efecto terapéutico
@@ -253,8 +260,8 @@
 
 
 
-                    <div class="bg-white br-20 border-grey">
-                        <p class="text-primario bold small-txt" style="padding: 15px 30px;">Advertencias y precauciones
+                    <div class="bg-white br-30 border-grey">
+                        <p class="text-primario bold small-txt p-3 pb-0 px-4">Advertencias y precauciones
                         </p>
                     </div>
 
@@ -278,8 +285,8 @@
 
 
 
-                    <div class="bg-white br-20 border-grey">
-                        <p class="text-primario bold small-txt" style="padding: 15px 30px;">Reacciones adversas
+                    <div class="bg-white br-30 border-grey">
+                        <p class="text-primario bold small-txt p-3 pb-0 px-4">Reacciones adversas
                         </p>
                     </div>
 
@@ -329,7 +336,7 @@
         </div>
     </div>
 
-    <div class="container py-48 pb-48 m-20">
+    <div class="container py-5 pb-5">
 
         <p class="txt-grey" style="margin-bottom: 5px;">La información para prescribir de nuestros productos se
             encuentra ingresando en: <a href="https://gskpro.com/es-ar/productos/"
@@ -339,52 +346,42 @@
             información médica puede ingresar en: <a href="https://gskpro.com/es-ar/"
                 class="text-primario">https://gskpro.com/es-ar/</a></p>
 
-        <p class="txt-grey mb-16">Para reportar eventos adversos de nuestros productos envíe un mail a: <a
+        <p class="txt-grey mb-3">Para reportar eventos adversos de nuestros productos envíe un mail a: <a
                 href="bua-farmacovigilancia-rx@gsk.com" class="text-primario">bua-farmacovigilancia-rx@gsk.com</a></p>
 
-        <p class="txt-grey mb-16">GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires,
+        <p class="txt-grey mb-3">GSK Biopharma Argentina S.A. Av del Libertador 7202, Piso 4, CABA, Buenos Aires,
             Argentina. Para consultas sobre nuestros productos, consultas de calidad o reporte de eventos adversos puede
             comunicarse al 0800-220-4752. Este material está destinado para el uso exclusivo de los
             médicos/profesionales de la salud.</p>
 
-        <p class="txt-grey mb-16">Las marcas comerciales son propiedad o han sido licenciadas al grupo de compañías ViiV
+        <p class="txt-grey mb-3">Las marcas comerciales son propiedad o han sido licenciadas al grupo de compañías ViiV
             Healthcare. Rekambys, incluida la marca comercial, es propiedad del grupo de compañías fármaceuticas
             Janssen-Cilag, producto farmacéutico promocionado por GSK bajo autorización de Janssen. ©️2024 GSK-ViiV
             Healthcare.</p>
 
-        <p class="txt-grey mb-16">PM-AR-CBR-WCNT-240001 | Fecha de Preparación: Diciembre 2024</p>
+        <p class="txt-grey mb-3">PM-AR-CBR-WCNT-240001 | Fecha de Preparación: Diciembre 2024</p>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <footer class="footer p-20">
         <div class="footer-container">
             <!-- Columna Izquierda -->
             <div class="footer-left">
-                <h2 class="footer-title georgia light fs-40">Póngase en contacto con nosotros</h2>
-                <p class="footer-description small-txt txt-grey mt-16">
+                <h2 class="footer-title georgia light fs-40 mt-4 mt-md-0">Póngase en contacto con nosotros</h2>
+                <p class="footer-description small-txt txt-grey mt-3">
                     Nuestro compromiso está en apoyarlo a resolver sus dudas y/o comentarios.
                 </p>
-                <button class="footer-button mt-32 mb-16 bold fs-16"><a
-                        href="https://gskpro.com/es-ar/contact-us/"></a>Contáctenos</button>
+                <button class="footer-button mt-4 mb-3 bold fs-16"><a href="https://gskpro.com/es-ar/contact-us/"></a>Contáctenos</button>
+
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p class="mb-3 txt-grey small-txt">Exclusivo para profesionales de la salud de Argentina.<br>
+                            Todos los derechos reservados GSK Biopharma Argentina 2024.</p>
+                    </div>
+                </div>
             </div>
 
             <div class="footer-bottom-mobile">
-                <p class="mt-16 mb-32 txt-grey small-txt">Exclusivo para profesionales de la salud de Argentina.<br>
+                <p class="mb-3 txt-grey small-txt">Exclusivo para profesionales de la salud de Argentina.<br>
                     Todos los derechos reservados GSK Biopharma Argentina 2024.</p>
             </div>
 
@@ -395,7 +392,7 @@
                     <li><a href="https://gskyvos.com.ar/">Web a pacientes</a></li>
                     <li><a href="https://www.gsk.com/en-gb/contact-us/worldwide/argentina">Web GSK Argentina</a></li>
                 </ul>
-                <ul class="mt-16">
+                <ul class="mb-3">
                     <li><a href="http://health.gsk.com/">Seleccione su país</a></li>
                     <li><a href="https://gskpro.com/es-ar/mapa-del-sitio/">Mapa del sitio</a></li>
                     <li><a href="https://terms.gsk.com/es-ar/">Términos y condiciones</a></li>
@@ -407,20 +404,37 @@
         </div>
 
 
-        <div class="footer-bottom">
-            <div class="container">
-                <p class="mt-16 txt-grey small-txt">Exclusivo para profesionales de la salud de Argentina.<br>
-                    Todos los derechos reservados GSK Biopharma Argentina 2024.</p>
-            </div>
-        </div>
+
     </footer>
 
+
+    <!---Modal-->
+    <div id="disclaimer" class="modal" style="display:flex">
+        <div class="modal-contenido">
+            <span class="txt-grey fs-14 text-left">Para acceder a la siguiente información debe ser un Profesional de la
+                salud.</span>
+            <h2 class="text-1 light mb-4 mb-md-5 mt-2">¿Es un profesional de la salud?</h2>
+
+            <div class="flex flex-col-mb gap-10">
+
+                <a href="#" class="bg-blue br-30 text-white py-2 decoration-none px-4 text-center txt-mobile">No, no soy un profesional de la salud</a>
+                <button id="confirmacion" class="bg-primario br-30 text-white py-2 decoration-none px-4 border-none txt-mobile">Sí,
+                    soy un profesional de la salud</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
 
 
 
     <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/layout.js"></script>
-    <script src="/accordion.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/disclaimer.js"></script>
 </body>
 
 </html>
